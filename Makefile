@@ -9,6 +9,8 @@ gencode:	diploid
 
 diploid:	fertilization
 	# To create a diploid, we require fertilization of an egg.
+	# This was also suggested by a friend:
+	# who | grep -i spouse | date; cd ~; unzip; touch; strip; finger; mount; gasp; yes; uptime; umount; sleep
 
 fertilization:	male.c female.c
 	# Fertilization requires mixing code from male and female.
